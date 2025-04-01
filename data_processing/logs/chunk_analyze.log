@@ -1,0 +1,275 @@
+2025-03-29 23:33:12,624 - INFO - The top six countries exporting gas turbines accounted for 70% of global exports between 2019-2021 in terms of trade volume (USD billion), with the United States the leader with a 30% share. The largest importer in terms of trade volume was also  the  United  States,  with  a  share  of  10%,  followed  by  China  with  6%.  The market  concentration  in  importers  is  much  lower,  with  the  top  six  countries accounting for 30% of global imports.
+
+## Mining of essential critical minerals for gas turbines is highly concentrated in a few emerging economies
+
+For gas turbines, the principal material requirements are low alloy steel as well as heat-resistant nickel-based super alloys for the turbine blades. The most relevant critical minerals used in the steel mixes are molybdenum, manganese, chromite, nickel, cobalt and rhenium. Putting the absolute mined amounts into perspective, the magnitude of these minerals is small compared to commodities such as iron ore. While in 2022, 2 600 Mt of iron ore, 22 Mt of copper and 20 Mt of manganese were mined globally, the amount of nickel mined was only 3.2 Mt, molybdenum
+
+and cobalt were mined in the magnitude of 255 kt and 200 kt, respectively, and rhenium mining amounted to only 58 t globally.
+2025-03-29 23:33:12,630 - INFO - ## Reliability concerns for winter
+
+A large portion of the United States is at elevated risk of insufficient electricity supply  during  peak  winter  conditions  according  to  the  North  American  Electric
+
+Reliability Corporation (NERC), as reserve margins have declined in many areas. A replay of the prolonged cold snaps, like Winter Storm Uri in the South-Central states in February 2021 and Elliott in December 2022, which caused significant load shedding, threaten to reduce gas-fired generation while also compromising fuel  delivery,  particularly  in  regions  where  facilities  are  not  designed  for  such conditions.  Load  forecasts  also  become  highly  uncertain  and  complex,  and underestimating demand is cited as a reliability risk. Wide area events like Elliott would reduce transfers from neighbouring regions.
+
+## Canada
+
+## Electricity demand returns to growth in the 2024-2026 outlook, with higher gas-fired generation to offset the fall in nuclear
+
+In Canada, a milder winter offset a warm and dry summer, contributed to a decline in electricity demand of 1% in 2023. We expect demand will increase by around 1% per annum over the next three years.
+
+Hydropower, which contributes more than half of electricity supply in the country, fell  by  almost 7% due to reduced supply from snowmelt as a result of the mild winter.  This  in  turn  caused  Canada  to  reduce  electricity  exports  to  the  US  by around 15% from Quebec and 30% from British Columbia in the first half of the year.
+2025-03-29 23:33:12,707 - INFO - 
+Average chunk size: 313.1 tokens
+2025-03-29 23:33:12,707 - INFO - Min chunk size: 16 tokens
+2025-03-29 23:33:12,707 - INFO - Max chunk size: 399 tokens
+2025-03-29 23:33:12,707 - INFO - 
+No token overlap found
+2025-03-29 23:38:42,513 - INFO - ## Electricity demand from data centres is in focus with the rise of artificial intelligence
+
+Our Electricity 2024 report provided a comprehensive coverage of the rising power needs of the data centre sector as AI applications become more prevalent and digitalisation  gains  pace  in  many  regions.  Since  then,  the  sector  has  received considerable  attention  from  regulators  and  policy  makers,  as  well  as  in  the research  and  consulting  fields, with multiple new  studies  and  projections published.  In  this  section,  we  provide  an  overview  of  the  recent  developments while also highlighting the need for greater focus on local bottlenecks, improved stocktaking  and  better  understanding  of  the  uncertainty  surrounding  future projections.
+
+## Data centres' global electricity use is currently limited but growing, with local bottlenecks already emerging
+
+Electricity consumption of data centres (excluding cryptocurrencies) is estimated to account for about 1-1.3% of global electricity demand in 2022 and it could see this  share  rise  to  a  range  between  1.5-3%  by  2026,  according  to  recent  IEA projections. By contrast, electric vehicles, despite their rapid growth, consumed a smaller 0.5% of the world's electricity in 2022, but their consumption is forecast to range  from  less  than  1.5%  to  around  2%  by  2026.  By  comparison,  primary aluminium  production,  a  very  electricity-intensive  process,  currently  consumes around 4% of the world's electricity.
+
+## Global final electricity demand by sector, 2015-2022
+
+<!-- image -->
+
+IEA. CC BY 4.0.
+2025-03-29 23:38:42,518 - INFO - ## Emissions: Power generation CO2 emissions plateau in 2024-2025
+
+Global emissions from electricity generation rose by 1.4% in 2023, after rising by 1.6% in 2022. This was despite hydropower in 2023 falling more than 2%, which boosted  fossil-fired  generation  in  many  parts  of  the  world  to  meet  electricity demand.  In  2024,  the  massive  gains  in  wind  and  solar  generation  globally, combined with the recovery in hydropower in China, constrained the increases in electricity output from fossil fuels. As a result, we expect CO2 emissions to remain relatively flat, up about 0.5%. For 2025, we anticipate emissions to decline at a similar  rate  as  renewables  continue  to  grow  and  displace  fossil-fired  supply. However,  deviations  from  the  normal  weather  conditions,  such  as  intense heatwaves, cold spells or below-average hydropower trends, can cause an uptick in emissions in individual years. Nevertheless, the structural shift from fossil fuels to renewables in electricity generation is set to remain robust.
+
+## Increased emissions in India are more than offset by declines in Europe and the United States
+
+Multiple regions in the world are expected to start seeing falling emissions from electricity  generation  out  to  2025.  The  largest  decline  is  expected  from  the European Union, which makes up most of the total contraction, followed by Other Europe.  US  power  sector  emissions  are  expected  to  record  a  slight  decline, whereas in China they are expected to increase slightly. India and Southeast Asia will continue to post higher emissions from the power sector due to rising coalfired generation.
+2025-03-29 23:38:42,544 - INFO - 
+Average chunk size: 322.4 tokens
+2025-03-29 23:38:42,544 - INFO - Min chunk size: 63 tokens
+2025-03-29 23:38:42,544 - INFO - Max chunk size: 397 tokens
+2025-03-29 23:38:42,545 - INFO - 
+No token overlap found
+2025-03-29 23:42:41,833 - INFO - <!-- image -->
+
+- Production curtailment
+- Permanent shutdown
+- Production resumption
+- Wholesale electricity price (3MMA)
+- Production investment abandoned or shifted abroad
+
+IEA. All rights reserved.
+
+Note: The companies shown were selected according to the availability of public data on their operations. The figure shows the date of the announcement and does not necessarily mean the exact date on which the production decisions were implemented. Announcement dates have been rounded to the nearest month for clarity in presentation. Average monthly wholesale prices shown in this figure are demand-weighted. 3MMA stands for the 3-month moving average. The wholesale electricity price does not directly correspond to the price paid by the industry, but is intended to provide an overview of the development of energy costs. It should also be noted that in some industries that consume large amounts of electricity, gas has a higher share of energy consumption (e.g., glass industry) or is used as a feedstock (e.g., chemical industry). In these industries, the price of gas plays a more significant role in costs and operational decisions than the electricity price.
+2025-03-29 23:42:41,838 - INFO - ## Upward trend in China is constrained by droughts three years in a row
+
+Although average capacity factors in regions like Brazil, Canada and the EU have been on a downward trend in recent years, the decline in the world average has been somewhat limited, primarily due to additions of newer and more efficient plants  in  countries  such  as China. As  of  2022,  30%  of  world's  hydropower generation took place in China. This massive scale means that any changes in Chinese hydro regimes have a large impact on global statistics.
+
+The capacity factor in China rose from an average of 37% over 1990-2008 to an average of 39% in 2009-2022, resulting from the building of large, more efficient hydropower plants such as the Three Gorges Dam. There was a significant fall in 2021 and 2022 due to major droughts, and the current drought in 2023 prevents a significant uptick.
+
+## Evolution of hydropower generation (left) and annual capacity factor of hydropower (right) in China, 1991-2023
+
+2023
+
+<!-- image -->
+
+IEA. CC BY 4.0.
+
+Note: 2023 values are based on the latest IEA Renewable Energy Market Update projections.
+
+## Location, increasing VRE share, and water priority rules also play a role in hydropower output
+2025-03-29 23:42:41,854 - INFO - 
+Average chunk size: 302.1 tokens
+2025-03-29 23:42:41,854 - INFO - Min chunk size: 63 tokens
+2025-03-29 23:42:41,854 - INFO - Max chunk size: 396 tokens
+2025-03-29 23:51:10,038 - INFO - Battery capacity in Australia, which increased markedly in 2021, approximately doubled in 2022. This is driven both by the start of operations of the many utility-scale projects in the second half of the year, and by growth in installation of residential battery systems.
+
+2022 saw a continued decrease in generation from coal-fired plants, which made up 49% of the mix relative to 53% in 2021. Demand growth was met by increases in both renewable and gas-fired generation. Over the forecast horizon, we see continued growth in renewables output of around 12% annually as a result of ongoing capacity growth. We expect gas-fired generation to remain stable to 2025. The power generation sector's total CO2 emissions, as well as its average CO2 intensity, will decrease as renewables output increases and coal-fired generation declines.
+
+Surging wholesale prices amid the energy crisis saw the Australian Energy Market Operator suspend the National Electricity Market from 15 June to 24 June 2022. The market suspension was necessitated by sustained high prices that triggered the Administered Price Cap, which was accompanied by reduced generation volumes offered to the market and heightened risks to security of supply. Generation companies indicated that offers were lower because the price cap had affected the profitability of some bids. The Australian Energy Market Commission has subsequently introduced a rule change to double the Administered Price Cap, applicable from 1 December 2022 to 30 June 2025, and in December 2022 also introduced a wholesale price cap for gas and coal.
+
+In July the government introduced the Climate Change Bill 2022, legislating the country's commitment to reduce GHG emissions 43% from 2005 levels by 2030 and achieve carbon neutrality in 2050. The bill passed both houses in September 2022.
+
+<!-- image -->
+
+## Nuclear generation ramps up in Japan and Korea out to 2025; renewables expand in Australia
+2025-03-29 23:51:10,044 - INFO - <!-- image -->
+
+IEA. CC BY 4.0.
+
+<!-- image -->
+
+<!-- image -->
+
+## Gas-fired power generation dominates incremental electricity supply in Eurasia
+
+<!-- image -->
+
+Notes: Other non-renewables includes oil, waste and other non-renewable energy sources. The CO2 intensity is calculated as total CO2 emissions divided by total generation.
+
+<!-- image -->
+
+## Middle East
+
+<!-- image -->
+
+## Middle East electricity demand to grow 2% annually in 2023-2025 while CO2 intensity declines
+
+Electricity demand in the Middle East grew by about 4% in 2021 following a 1% decline in 2020 due to Covid-19 lockdowns. Members of the Gulf Cooperation Council (GCC) - particularly Saudi Arabia, Iraq, Oman, and the United Arab Emirates (hereafter 'UAE') - saw the strongest absolute increases in electricity consumption. However, lower-income countries in the region including Iraq, Lebanon and Iran - experienced periodic electricity shortages throughout the year 2021.
+
+from 72% in 2022 to 77% by 2025 as it captures market share from both oil- and coal-fired generation. The share of oil in the generation mix is set to drop from 21% to 14% between 2022 and 2025, led by steep declines in Saudi Arabia, Iraq, Iran and Kuwait in particular. Coal is projected to see its share diminish from 1% to just under 0.3% over the same period due to Israel's decision to phase out coal-fired generation by the end of 2025 and the recent conversion of the new Hassyan power plant in the UAE from coal to gas.
+2025-03-29 23:51:10,100 - INFO - 
+Average chunk size: 308.9 tokens
+2025-03-29 23:51:10,100 - INFO - Min chunk size: 42 tokens
+2025-03-29 23:51:10,100 - INFO - Max chunk size: 398 tokens
+2025-03-29 23:51:10,101 - INFO - 
+No token overlap found
+2025-03-29 23:56:57,010 - INFO - In the Middle East , we expect natural gas to account for nearly twothirds of the net increase in total generation in 2022 and 2023, and to retain its dominant share (over 70%) in the region's electricity mix. Increasing gas-fired generation is supported by rising gas supply availability across the region. Oil, at 21% the second-largest share in the regional electricity mix in 2021, is on course to register a significant decline. In Saudi Arabia, the largest electricity consumer in the region, surging crude prices since the start of 2022 have driven up the opportunity costs of burning oil. As such, oil-fired generation is replaced with domestically produced natural gas, which cannot be exported due to lacking infrastructure. Nuclear output is set to nearly triple in the Middle East, following the start of commercial operation of the second (in 2022) and third (in 2023) units of the Barakah nuclear plant in the United Arab Emirates. Renewable generation is expected to increase by one-third, boosted by recent project completions (e.g. Phase 1 of the 800 MW Al
+
+Kharsaah solar project in Qatar in April 2022) and major awards (e.g. the Ar Rass and Saad solar developments totalling 1 GW in Saudi Arabia in March 2022). Coal-fired generation is set to halve between 2021 and 2023 (compared to a less than 10% decline in our previous forecast) following the February 2022 decision in the United Arab Emirates to convert the Hassyan coal plant (under construction) in Dubai to natural gas.
+2025-03-29 23:56:57,015 - INFO - Since 16 March, the grids of Ukraine and Moldova have benefitted from connection to the Continental European system. Notably, the synchronisation has been able to provide immediate support in case of disturbances that, due to possible outages of nuclear units in Ukraine (providing 50% of Ukrainian electricity demand in 2021), could be large and destabilising. Despite this support from neighbours, the need to ensure supply during war (including 30% lower electricity demand since the Russian invasion and up until time of publication) requires intense efforts from Ukrenergo, especially to restore damaged lines and substations.
+
+The current coupling with Continental Europe will be formally confirmed as permanent when Ukrenergo and Moldelectrica achieve compliance with technical requirements stemming from EU legislation. On 30 June 2022, electricity trade between Ukraine and the EU started via the interconnector between Ukraine and Romania. Initially, trading was limited to 100 MW with the aim of increasing the limit as power system stability and security allow. Trade between Ukraine and other neighbouring countries (e.g. Slovakia and Hungary), as well as between Moldova and Romania, is expected to follow.
+
+<!-- image -->
+
+## End-user prices and price interventions
+
+<!-- image -->
+
+<!-- image -->
+
+## European countries taking measures to contain electricity prices and protect consumers
+
+The rapid surge of global wholesale electricity prices seen since the second quarter of 2021 continued in 2022, particularly in Europe, resulting in significantly increasing consumer prices. For the next few years, electricity future prices (at time of publication) indicate that although prices decline from the current level, they could remain high compared to before 2021.
+2025-03-29 23:56:57,034 - INFO - 
+Average chunk size: 316.9 tokens
+2025-03-29 23:56:57,036 - INFO - Min chunk size: 63 tokens
+2025-03-29 23:56:57,036 - INFO - Max chunk size: 395 tokens
+2025-03-29 23:56:57,037 - INFO - 
+No token overlap found
+2025-03-30 00:05:13,873 - INFO - In October 2021 the Japanese government launched the sixth Strategic Energy Plan, aimed at achieving carbon neutrality by
+
+2050. This plan includes a renewable share of 36-38% by the end of 2030, almost double the share in 2021, and nuclear generation of 20-22%, which could further accelerate the use of both sources.
+
+## Korea
+
+After growth of 1% in 2020, we estimate electricity demand in Korea to have increased by over 5% in 2021, despite higher numbers of new Covid-19 cases. We anticipate stable annual demand growth of slightly above 1% to 2024, led by the industrial sector and followed by the commercial and services sector.
+
+We expect renewable capacity to grow strongly over the forecast period, increasing by almost 50% by 2024 compared to 2021. This expansion is led by solar PV at over 4 GW per year. Both gas- and coal-fired capacity continues to rise during the forecast period, as plants already under construction come online despite government announcements to phase out both technologies in the longer term.
+
+Renewable electricity saw the strongest growth in 2021, rising by around 30% above 2020's output, mostly from solar PV and biomass. From 2022 to 2024 we expect on average 15% additional total renewables output per year. Gas generation also rose in 2021 (up 22%). Nuclear generation declined by 8%, with some plants offline due to long-term maintenance. In the next three years we expect nuclear generation to grow in absolute terms to about the same extent as renewables, increasing by 5% per year on average,
+
+<!-- image -->
+2025-03-30 00:05:13,879 - INFO - <!-- image -->
+
+## Electricity demand in the Middle East is expected to stabilise in the medium term
+
+## Development of electricity demand, 2015-2024
+
+<!-- image -->
+
+Demand
+
+Demand forecast
+
+IEA. All rights reserved.
+
+<!-- image -->
+
+Source: IEA analysis based on data from IEA (2022), Data and statistics.
+
+## Demand in the Middle East is increasingly met by cleaner sources
+
+IEA. All rights reserved.
+
+<!-- image -->
+
+Note: Other non-renewables includes oil, waste and other non-renewable energy sources. Source: IEA analysis based on data from IEA (2022), Data and statistics.
+
+<!-- image -->
+
+## Saudi Arabia
+
+Saudi Arabia's electricity demand fell by almost 1% in 2020 as Covid-19-related measures limited demand in the commercial sector and government offices, which was only partially offset by growing consumption in the residential and industrial sectors. Power demand rebounded sharply and recorded a 10% year-on-year increase in the first half of 2021 with the lifting of restrictions and normalisation of economic activity. For the full year we estimate 6.5% growth. For the period 2022-2024 we expect average growth of around 0.5% per year, driven by a growing number of grid connections and expanding industrial demand, but tempered by earlier price reforms and modest improvements in efficiency.
+2025-03-30 00:05:13,909 - INFO - 
+Average chunk size: 310.1 tokens
+2025-03-30 00:05:13,909 - INFO - Min chunk size: 42 tokens
+2025-03-30 00:05:13,909 - INFO - Max chunk size: 395 tokens
+2025-03-30 00:05:13,909 - INFO - 
+No token overlap found
+2025-03-30 00:07:32,997 - INFO - ## Acknowledgements, contributors and credits
+
+This publication has been prepared by the Gas, Coal and Power Markets (GCP) Division of the International Energy Agency (IEA). The publication was led and co-ordinated by Stefan Lorenczik, Energy Analyst for Electricity.
+
+Stefan Lorenczik, Paulina Becerra Zavala and Zoe Hungerford are the main authors. The report also benefited from analysis, data and input from Carlos Fernández Alvarez, Louis Chambeau, Mathilde Daugy, Jean-Baptiste Dubreuil, Keith Everhart, Saskia Galias, Julia Guyon, Craig Hart, Songho Jeon, Jinyoung Kim, Kazuhiro Kurumi, Luis Lopez, Akos Losz, Florian Mante, Gergely Molnár, Aloys Nghiem, JunGyu Park, Julian Prime, Céline Rouquette, Enrique Gutierrez Tavarez, Peerapat Vithayasrichareon and Jacques Warichet.
+
+Keisuke Sadamori, director of the IEA Energy Markets and Security (EMS) Directorate, and Peter Fraser, Head of GCP, provided expert guidance and advice.
+
+Further IEA colleagues provided valuable input, comments and feedback, in particular Lucila Arboleya, Heymi Bahar, Sylvia Beyer, Aad van Bohemen, Pedro Carvalho, César Alejandro Hernández Alva, Pablo Hevia-Koch, Nick Johnstone, Domenico Lattanzio, Divya Reddy, Grecia Rodríguez Jiménez, Michael Waldron and Brent Wanner.
+
+Timely and comprehensive data from the Energy Data Centre were fundamental to the report.
+2025-03-30 00:07:33,002 - INFO - Timely and comprehensive data from the Energy Data Centre were fundamental to the report.
+
+The authors would also like to thank Andrew Johnston for skilfully editing the manuscript and the IEA Communication and Digital Office, in particular Astrid Dumond, Tanya Dyhin, Christopher Gully, Jad Mouawad, Jethro Mullen, Gregory Viscusi and Therese Walsh.
+
+Several international experts provided input and/or reviewed the draft report. Their suggestions and comments were very valuable. They include: Brent Dixon (Idaho National Laboratory), Ganesh Doluweera (Canadian Energy Research Institute), Michael Hogan (The Regulatory Assistance Project), Francisco Laverón (Iberdrola), Enrique De Las Morenas Moneo (ENEL), Manabu Nabeshima (Ministry of Foreign Affairs, Japan), Emmanuel Neau (EDF R&amp;D), Fereidoon Sioshansi (Menlo Energy Economics), María Ubierna (International Hydropower Association), Laurens de Vries (TU Delft), Matthew Wittenstein (United Nations ESCAP), Stephen Woodhouse (AFRY) and Rina Bohle Zeller (Vestas).
+
+The individuals and organisations that contributed to this report are not responsible for any opinion or judgement it contains. Any error or omission is the sole responsibility of the IEA.
+
+For questions and comments, please contact GCP (gcp@iea.org).
+
+<!-- image -->
+2025-03-30 00:07:33,002 - INFO - 
+Average chunk size: 321.5 tokens
+2025-03-30 00:07:33,003 - INFO - Min chunk size: 295 tokens
+2025-03-30 00:07:33,003 - INFO - Max chunk size: 348 tokens
+2025-03-30 00:12:26,676 - INFO - Many of the largest electricity-consuming countries have been able to achieve significant improvements in emission intensity during the past two decades. China, starting with the highest carbon intensity in 2000, was able to cut emissions by 35%. The United States and Canada are both down by 44%, Germany by 45%. Germany particularly improved in 2020 (down 10 percentage points) due to a significant reduction in coal-fired generation.
+
+## Composition of CO2 emissions and emission intensity in 2020
+
+<!-- image -->
+
+IEA. All rights reserved.
+
+## Development of CO2 emission intensity of electricity generation
+
+<!-- image -->
+
+IEA. All rights reserved.
+
+Source: IEA (2020), CO2 emissions statistics.
+
+<!-- image -->
+
+## Low-carbon policies to achieve electricity sector transitions: Focus on carbon pricing
+
+To achieve clean energy transitions, countries are implementing a suite of policies that work together towards the decarbonisation of the electricity sector. National policy objectives and constraints, alongside local power market structures, shape each jurisdiction's particular policy mix. In addition to fuel taxes, and efficiency and renewable support measures, they can also incorporate market mechanisms. For example, Japan implemented an innovative non-fossil fuel certificate trading framework in 2020, which also includes renewable and low-carbon energy sources not covered by Japan's feed-in tariff. This year is also notable for the first implementation stages of China's emissions trading system, covering its power sector. An increasing number of countries and jurisdictions are introducing carbon pricing instruments. These comprise carbon taxes, emissions trading systems or hybrids of the two, and can be an effective complementary policy in the arsenal of instruments that governments can use to decarbonise their electricity sector, alongside other low-carbon, sector-specific policies. The electricity sector is included in the overwhelming majority of carbon pricing instruments.
+2025-03-30 00:12:26,680 - INFO - Changes in power sector allocations - in addition to low gas prices in the spot market this year - are likely to further narrow the gap in fuel costs between coal and gas in the medium term, in favour of gas. This new scheme is in line with the government's green agenda. In October President Moon Jae-in announced that the country will commit to achieving carbon neutrality by 2050, putting an emphasis on reducing reliance on coal-fired power generation. The government is likely to announce new electricity policies in the 9th long-term power plan (to be released late this year), providing greater incentives for coal-to-gas switching in the country's power mix.
+
+<!-- image -->
+
+## Australia
+
+Electricity demand has been relatively flat in Australia for the past decade despite economic and population growth, with 2018 and 2019 seeing small year-on-year increases of 1.1% and 1.6% respectively.
+
+With the first case of Covid-19 in Australia identified in late January and initial cases of community transmission in early March, nationwide lockdown measures were introduced from mid-March with Australian borders closed to all non-residents from 20 March. Nationwide restrictions within Australia were eased from early May on, although a second outbreak in Victoria resulted in new containment measures in that state from early July, which were further tightened in August, and only began to be gradually eased from mid-September.
+2025-03-30 00:12:26,711 - INFO - 
+Average chunk size: 342.9 tokens
+2025-03-30 00:12:26,711 - INFO - Min chunk size: 195 tokens
+2025-03-30 00:12:26,711 - INFO - Max chunk size: 397 tokens
+2025-03-30 00:23:30,761 - INFO - ## Quarterly average wholesale prices for selected regions, 2018-2026
+
+<!-- image -->
+
+IEA. CC BY 4.0.
+
+Notes: Prices for Australia and the United States are calculated as the demand-weighted average of the available prices in their regional markets. Continuous lines show historical data and dashed lines refer to forward prices. Sources:  IEA  analysis based  on  data  from  RTE  (France),  accessed  via  the  ENTSO-E  Transparency  Platform; Bundesnetzagentur (2025), SMARD.de; AEMO (2025), Aggregated price and demand data; U.S. EIA (2025), Short-Term Energy Outlook, January 2025 IEX (2025), Area Prices; EEX (2025), Power Futures; ASX (2025), Electricity Futures © ASX Limited ABN 98 008 624 691 (ASX) 2020. All rights reserved. This material is reproduced with the permission of ASX. This material should not be reproduced, stored in a retrieval system or transmitted in any form whether in whole or in part without the prior written permission of ASX. Latest update: 31 January 2025.
+
+In 2024, wholesale price spreads between Germany and France averaged around EUR 20/MWh.  In  addition  to  diverging  market  dynamics  between  the  two countries,  the  unavailabilities  on  the  eastern  interconnection  in  France,  which limited export capacities to Germany, also affected the spread. Strong hydropower and nuclear generation in France also contributed to a 40% y-o-y reduction in wholesale electricity prices, resulting in an average price of USD 62/MWh. Futures prices indicate a German-French annual price spread of about USD 30/MWh.
+2025-03-30 00:23:30,885 - INFO - 
+Average chunk size: 314.0 tokens
+2025-03-30 00:23:30,885 - INFO - Min chunk size: 16 tokens
+2025-03-30 00:23:30,885 - INFO - Max chunk size: 397 tokens
+2025-03-30 00:23:30,885 - INFO - 
+No token overlap found

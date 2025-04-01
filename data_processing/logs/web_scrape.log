@@ -1,0 +1,58 @@
+2025-03-29 23:23:41,723 - INFO - Data Pipeline execution started.
+2025-03-29 23:23:41,834 - INFO - Webpage for https://www.iea.org/reports/electricity-2025 fetched successfully!
+2025-03-29 23:23:41,908 - INFO - Fetched the page url: https://www.iea.org/reports/electricity-2024
+2025-03-29 23:23:41,912 - INFO - Fetched the page url: https://www.iea.org/reports/electricity-mid-year-update-july-2024
+2025-03-29 23:23:41,912 - INFO - Fetched the page url: https://www.iea.org/reports/electricity-market-report-update-2023
+2025-03-29 23:23:41,912 - INFO - Fetched the page url: https://www.iea.org/reports/electricity-market-report-2023
+2025-03-29 23:23:41,914 - INFO - Fetched the page url: https://www.iea.org/reports/electricity-market-report-july-2022
+2025-03-29 23:23:41,914 - INFO - Fetched the page url: https://www.iea.org/reports/electricity-market-report-january-2022
+2025-03-29 23:23:41,914 - INFO - Fetched the page url: https://www.iea.org/reports/electricity-market-report-july-2021
+2025-03-29 23:23:41,914 - INFO - Fetched the page url: https://www.iea.org/reports/electricity-market-report-december-2020
+2025-03-29 23:23:41,915 - INFO - Webpage url list created
+2025-03-29 23:23:41,915 - INFO - Starting webpage scraping of https://www.iea.org/reports/electricity-2024
+2025-03-29 23:23:42,776 - INFO - Webpage for https://www.iea.org/reports/electricity-2024 fetched successfully!
+2025-03-29 23:23:42,830 - INFO - Fetched the pdf url: https://iea.blob.core.windows.net/assets/18f3ed24-4b26-4c83-a3d2-8a1be51c8cc8/Electricity2024-Analysisandforecastto2026.pdf
+2025-03-29 23:23:46,704 - INFO - Uploaded: ElectricityConsumptionFiles/Electricity2024-Analysisandforecastto2026.pdf to bucket: bigdatasystems2
+2025-03-29 23:23:46,711 - INFO - Electricity2024-Analysisandforecastto2026.pdf scraped and uploaded to S3
+2025-03-29 23:35:53,165 - INFO - Starting webpage scraping of https://www.iea.org/reports/electricity-mid-year-update-july-2024
+2025-03-29 23:35:54,284 - INFO - Webpage for https://www.iea.org/reports/electricity-mid-year-update-july-2024 fetched successfully!
+2025-03-29 23:35:54,347 - INFO - Fetched the pdf url: https://iea.blob.core.windows.net/assets/d114506a-f741-4264-90aa-d476f79eb83e/ElectricityMid-YearUpdate_July2024.pdf
+2025-03-29 23:35:57,465 - INFO - Uploaded: ElectricityConsumptionFiles/ElectricityMid-YearUpdate_July2024.pdf to bucket: bigdatasystems2
+2025-03-29 23:35:57,472 - INFO - ElectricityMid-YearUpdate_July2024.pdf scraped and uploaded to S3
+2025-03-29 23:40:21,809 - INFO - Starting webpage scraping of https://www.iea.org/reports/electricity-market-report-update-2023
+2025-03-29 23:40:22,755 - INFO - Webpage for https://www.iea.org/reports/electricity-market-report-update-2023 fetched successfully!
+2025-03-29 23:40:22,817 - INFO - Fetched the pdf url: https://iea.blob.core.windows.net/assets/15172a8d-a515-42d7-88a4-edc27c3696d3/ElectricityMarketReport_Update2023.pdf
+2025-03-29 23:40:25,596 - INFO - Uploaded: ElectricityConsumptionFiles/ElectricityMarketReport_Update2023.pdf to bucket: bigdatasystems2
+2025-03-29 23:40:25,604 - INFO - ElectricityMarketReport_Update2023.pdf scraped and uploaded to S3
+2025-03-29 23:44:22,595 - INFO - Starting webpage scraping of https://www.iea.org/reports/electricity-market-report-2023
+2025-03-29 23:44:23,727 - INFO - Webpage for https://www.iea.org/reports/electricity-market-report-2023 fetched successfully!
+2025-03-29 23:44:23,779 - INFO - Fetched the pdf url: https://iea.blob.core.windows.net/assets/255e9cba-da84-4681-8c1f-458ca1a3d9ca/ElectricityMarketReport2023.pdf
+2025-03-29 23:44:30,415 - INFO - Uploaded: ElectricityConsumptionFiles/ElectricityMarketReport2023.pdf to bucket: bigdatasystems2
+2025-03-29 23:44:30,418 - INFO - ElectricityMarketReport2023.pdf scraped and uploaded to S3
+2025-03-29 23:53:45,613 - INFO - Starting webpage scraping of https://www.iea.org/reports/electricity-market-report-july-2022
+2025-03-29 23:53:46,756 - INFO - Webpage for https://www.iea.org/reports/electricity-market-report-july-2022 fetched successfully!
+2025-03-29 23:53:46,820 - INFO - Fetched the pdf url: https://iea.blob.core.windows.net/assets/660c2410-218c-4145-9348-c782e185dcdf/ElectricityMarketReport-July2022.pdf
+2025-03-29 23:53:50,010 - INFO - Uploaded: ElectricityConsumptionFiles/ElectricityMarketReport-July2022.pdf to bucket: bigdatasystems2
+2025-03-29 23:53:50,014 - INFO - ElectricityMarketReport-July2022.pdf scraped and uploaded to S3
+2025-03-29 23:58:54,237 - INFO - Starting webpage scraping of https://www.iea.org/reports/electricity-market-report-january-2022
+2025-03-29 23:58:55,337 - INFO - Webpage for https://www.iea.org/reports/electricity-market-report-january-2022 fetched successfully!
+2025-03-29 23:58:55,401 - INFO - Fetched the pdf url: https://iea.blob.core.windows.net/assets/d75d928b-9448-4c9b-b13d-6a92145af5a3/ElectricityMarketReport_January2022.pdf
+2025-03-29 23:58:59,214 - INFO - Uploaded: ElectricityConsumptionFiles/ElectricityMarketReport_January2022.pdf to bucket: bigdatasystems2
+2025-03-29 23:58:59,216 - INFO - ElectricityMarketReport_January2022.pdf scraped and uploaded to S3
+2025-03-30 00:07:24,269 - INFO - Starting webpage scraping of https://www.iea.org/reports/electricity-market-report-july-2021
+2025-03-30 00:07:25,472 - INFO - Webpage for https://www.iea.org/reports/electricity-market-report-july-2021 fetched successfully!
+2025-03-30 00:07:25,551 - INFO - Fetched the pdf url: https://iea.blob.core.windows.net/assets/01e1e998-8611-45d7-acab-5564bc22575a/ElectricityMarketReportJuly2021.pdf
+2025-03-30 00:07:25,551 - INFO - Fetched the pdf url: https://iea.blob.core.windows.net/assets/4f4dfec6-dec0-4578-9b3c-e95e72be3a77/AcknowledgementsfromElectricityMarketReportJuly2021.pdf
+2025-03-30 00:07:27,312 - INFO - Uploaded: ElectricityConsumptionFiles/AcknowledgementsfromElectricityMarketReportJuly2021.pdf to bucket: bigdatasystems2
+2025-03-30 00:07:27,320 - INFO - AcknowledgementsfromElectricityMarketReportJuly2021.pdf scraped and uploaded to S3
+2025-03-30 00:07:33,009 - INFO - Starting webpage scraping of https://www.iea.org/reports/electricity-market-report-december-2020
+2025-03-30 00:07:34,081 - INFO - Webpage for https://www.iea.org/reports/electricity-market-report-december-2020 fetched successfully!
+2025-03-30 00:07:34,167 - INFO - Fetched the pdf url: https://iea.blob.core.windows.net/assets/a695ae98-cec1-43ce-9cab-c37bb0143a05/Electricity_Market_Report_December_2020.pdf
+2025-03-30 00:07:38,330 - INFO - Uploaded: ElectricityConsumptionFiles/Electricity_Market_Report_December_2020.pdf to bucket: bigdatasystems2
+2025-03-30 00:07:38,332 - INFO - Electricity_Market_Report_December_2020.pdf scraped and uploaded to S3
+2025-03-30 00:14:23,816 - INFO - Starting webpage scraping of https://www.iea.org/reports/electricity-2025
+2025-03-30 00:14:24,787 - INFO - Webpage for https://www.iea.org/reports/electricity-2025 fetched successfully!
+2025-03-30 00:14:24,849 - INFO - Fetched the pdf url: https://iea.blob.core.windows.net/assets/0f028d5f-26b1-47ca-ad2a-5ca3103d070a/Electricity2025.pdf
+2025-03-30 00:14:32,920 - INFO - Uploaded: ElectricityConsumptionFiles/Electricity2025.pdf to bucket: bigdatasystems2
+2025-03-30 00:14:32,922 - INFO - Electricity2025.pdf scraped and uploaded to S3
+2025-03-30 00:26:39,655 - INFO - Data Pipeline execution completed.
