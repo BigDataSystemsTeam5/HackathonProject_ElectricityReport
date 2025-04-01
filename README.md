@@ -22,7 +22,7 @@ The system processes data from sources such as:
 
 Electricity Market Report
 
-Electricity2025.pdf and other reports.
+Electricity Report for 2025 (Electricity2025.pdf) and other Electricity reports for the following years: 2022, 2023, 2024 
 
 Pinecone metadata filtering ensures efficient retrieval based on Year and Quarter.
 
