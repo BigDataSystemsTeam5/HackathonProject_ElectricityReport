@@ -6,7 +6,7 @@ Overview
 
 This project is an integrated research assistant leveraging multiple specialized agents to generate comprehensive research reports. The system utilizes:
 
-Snowflake Agent: Fetches structured valuation data and generates summaries/visualizations.
+Image Agent: Generates images from a given prompt.
 
 RAG Agent: Retrieves relevant historical data from a Pinecone-powered vector database.
 
