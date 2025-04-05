@@ -3,30 +3,31 @@
   "format": "html",
   "prefix": "https://storage.googleapis.com",
   "mainga": "UA-49880327-14",
-  "updated": "2025-04-05T15:55:37-04:00",
+  "updated": "2025-04-05T16:05:06-04:00",
   "id": "hackathon-electricity-codelab",
   "duration": 0,
-  "title": "Introduction",
-  "summary": "Execute a Multi-Agent Research Assistant for Electricity Reports with LangGraph, FastAPI, Pinecone, and Streamlit.",
-  "source": "Codelab_Execution_HackathonElectricity.md",
+  "title": "Hackathon Electricity Report Research Assistant",
+  "authors": "BigDataSystemsTeam5",
+  "summary": "Build and deploy a multi-agent LangGraph-based research assistant for Electricity Reports.",
+  "source": "HackathonElectricity_Codelab_CLAAT.md",
   "theme": "",
   "status": [
     "published"
   ],
   "category": [
     "ai",
-    "research-agent",
-    "pinecone",
     "langgraph",
-    "hackathon"
+    "research",
+    "pinecone",
+    "streamlit"
   ],
   "tags": [
     "fastapi",
     "langgraph",
     "multi-agent",
     "pinecone",
-    "streamlit"
+    "streamlit",
+    "web"
   ],
-  "feedback": "https://github.com/BigDataSystemsTeam5/HackathonProject_ElectricityReport/issues",
   "url": "hackathon-electricity-codelab"
 }

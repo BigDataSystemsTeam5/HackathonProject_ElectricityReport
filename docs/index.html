@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
   <meta name="theme-color" content="#4F7DC9">
   <meta charset="UTF-8">
-  <title>Introduction</title>
+  <title>Hackathon Electricity Report Research Assistant</title>
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
   <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://storage.googleapis.com/claat-public/codelab-elements.css">
@@ -23,97 +23,138 @@
   <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
   <google-codelab codelab-gaid=""
                   id="hackathon-electricity-codelab"
-                  title="Introduction"
+                  title="Hackathon Electricity Report Research Assistant"
                   environment="web"
-                  feedback-link="https://github.com/BigDataSystemsTeam5/HackathonProject_ElectricityReport/issues">
+                  feedback-link="">
     
-      <google-codelab-step label="What you&#39;ll build" duration="0">
+      <google-codelab-step label="What You&#39;ll Build" duration="0">
         <ul>
-<li>Preprocess and embed electricity reports from 2022–2025</li>
-<li>Use a LangGraph-based orchestrator with RAG, Web Search, and Image agents</li>
-<li>Interact via a Streamlit + FastAPI app</li>
-<li>Deploy using Docker</li>
+<li>🧠 A LangGraph-based multi-agent orchestrator</li>
+<li>🧾 Data processing pipeline for Electricity Reports (2022–2025)</li>
+<li>🌐 Web &amp; image response generation</li>
+<li>📊 Interactive frontend using Streamlit</li>
+<li>🐳 Docker deployment</li>
 </ul>
-<p>Prerequisites</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Prerequisites" duration="0">
+        <p>Before you begin, ensure you have the following:</p>
 <ul>
 <li>Python 3.8+</li>
 <li>Docker</li>
-<li>Snowflake, Pinecone, and SerpAPI API keys</li>
+<li>API keys for: <ul>
+<li>Pinecone</li>
+<li>SerpAPI (or Tavily/Bing)</li>
+<li>Snowflake</li>
 </ul>
-<p>Step 1: Preprocess Electricity Reports</p>
-<p>Navigate to the <code>data_processing/</code> folder:</p>
-<pre><code language="language-bash" class="language-bash">cd data_processing
-</code></pre>
-<p>Run the preprocessing script:</p>
+</li>
+<li><code>claat</code> installed (for viewing this Codelab)</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Step 1: Preprocess Electricity Reports" duration="0">
+        <p>Navigate to the <code>data_processing/</code> folder and run:</p>
 <pre><code language="language-bash" class="language-bash">python preprocess_electricity_report.py
 </code></pre>
-<p>This will:</p>
+<p>This script will:</p>
 <ul>
-<li>Load PDFs from multiple years</li>
-<li>Chunk content and extract Year/Quarter metadata</li>
-<li>Store formatted data ready for vector embedding</li>
+<li>Load PDFs (2022–2025)</li>
+<li>Chunk the data</li>
+<li>Add Year/Quarter metadata</li>
 </ul>
-<p>Step 2: Index Data to Pinecone</p>
-<p>Inside the same folder, use the embedding script:</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Step 2: Embed and Push Data to Pinecone" duration="0">
+        <p>Still in <code>data_processing/</code>, embed the processed chunks:</p>
 <pre><code language="language-bash" class="language-bash">python vectorize_data_with_metadata.py
 </code></pre>
-<p>This pushes your processed data into Pinecone with metadata like:</p>
+<p>This script will:</p>
 <ul>
-<li><code>year</code></li>
-<li><code>quarter</code></li>
+<li>Embed the content using OpenAI embeddings</li>
+<li>Push it to Pinecone with Year/Quarter metadata</li>
 </ul>
-<p>You can verify data in your Pinecone project dashboard.</p>
-<p>Step 3: Start the FastAPI Backend (LangGraph Agents)</p>
-<p>Go to the backend code directory:</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Step 3: Start the FastAPI Backend" duration="0">
+        <p>Navigate to the LangGraph orchestrator backend:</p>
 <pre><code language="language-bash" class="language-bash">cd mini_manus_ai
+uvicorn app.main:app --reload
 </code></pre>
-<p>Run the LangGraph FastAPI backend:</p>
-<pre><code language="language-bash" class="language-bash">uvicorn app.main:app --reload
-</code></pre>
-<p>This starts:</p>
+<p>The FastAPI backend handles:</p>
 <ul>
-<li>RAG Agent (using Pinecone)</li>
-<li>Web Agent (using SerpAPI)</li>
-<li>Image Agent (DALL·E-3 via OpenAI)</li>
-<li>AgentRouter using LangGraph orchestration</li>
+<li>Routing queries to appropriate agents</li>
+<li>Aggregating agent responses</li>
 </ul>
-<p>Step 4: Launch Streamlit UI</p>
-<p>Open a new terminal and navigate to:</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Step 4: Launch Streamlit Frontend" duration="0">
+        <p>In a new terminal:</p>
 <pre><code language="language-bash" class="language-bash">cd frontend
 streamlit run ui.py
 </code></pre>
-<p>The UI allows:</p>
+<p>From here, users can:</p>
 <ul>
-<li>Filtering results by year and quarter</li>
-<li>Asking free-form research questions</li>
-<li>Triggering any or all of the three agents</li>
+<li>Ask research questions</li>
+<li>Filter by Year or Quarter</li>
+<li>Choose agents to run (RAG, Web, Image)</li>
 </ul>
-<p>Step 5: Run the Full Stack with Docker</p>
-<p>At the root directory, build and run the Docker container:</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Step 5: Build &amp; Run with Docker" duration="0">
+        <p>To containerize the full app:</p>
 <pre><code language="language-bash" class="language-bash">docker build -t electricity-assistant .
 docker run -p 8501:8501 electricity-assistant
 </code></pre>
-<p>Step 6: Additional Utilities</p>
-<p>To generate a test research report:</p>
+<p>Access the app at <code>http://localhost:8501</code></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Step 6: Generate a Full Research Report (Optional)" duration="0">
+        <p>Use the provided script to auto-generate reports:</p>
 <pre><code language="language-bash" class="language-bash">python generate_testreport.py
 </code></pre>
-<p>This outputs a consolidated markdown file combining all agent results for a given question.</p>
-<p>Summary</p>
-<p>✅ You&#39;ve executed a full-stack, AI-powered research assistant that:</p>
+<p>This combines all agent outputs into a report format (text + visual).</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Summary" duration="0">
+        <p>You&#39;ve built a full-stack research assistant that:</p>
 <ul>
-<li>Parses and indexes electricity reports</li>
-<li>Responds with summarized insights, visuals, and news</li>
-<li>Uses LangGraph agents orchestrated in FastAPI</li>
-<li>Is interactive via Streamlit and portable via Docker</li>
+<li>Embeds and retrieves unstructured report data</li>
+<li>Uses LangGraph agents for coordination</li>
+<li>Delivers insights and visual content</li>
+<li>Runs locally or in Docker</li>
 </ul>
-<p>Next Steps</p>
-<ul>
-<li>Improve UI interactivity</li>
-<li>Add more agent roles (e.g., Forecasting)</li>
-<li>Implement CI/CD with GitHub Actions</li>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Next Steps" duration="0">
+        <ul>
+<li>Add confidence scoring</li>
+<li>Use streaming responses from LLMs</li>
+<li>Deploy to cloud using GitHub Actions or Streamlit Sharing</li>
 </ul>
-<p>License</p>
-<p>MIT License — see LICENSE file in the repository.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="License" duration="0">
+        <p>MIT License. See the <a href="https://github.com/BigDataSystemsTeam5/HackathonProject_ElectricityReport/blob/main/LICENSE" target="_blank">LICENSE</a>.</p>
 
 
       </google-codelab-step>
