@@ -1,0 +1,130 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Introduction</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/claat-public/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  id="hackathon-electricity-codelab"
+                  title="Introduction"
+                  environment="web"
+                  feedback-link="https://github.com/BigDataSystemsTeam5/HackathonProject_ElectricityReport/issues">
+    
+      <google-codelab-step label="What you&#39;ll build" duration="0">
+        <ul>
+<li>Preprocess and embed electricity reports from 2022–2025</li>
+<li>Use a LangGraph-based orchestrator with RAG, Web Search, and Image agents</li>
+<li>Interact via a Streamlit + FastAPI app</li>
+<li>Deploy using Docker</li>
+</ul>
+<p>Prerequisites</p>
+<ul>
+<li>Python 3.8+</li>
+<li>Docker</li>
+<li>Snowflake, Pinecone, and SerpAPI API keys</li>
+</ul>
+<p>Step 1: Preprocess Electricity Reports</p>
+<p>Navigate to the <code>data_processing/</code> folder:</p>
+<pre><code language="language-bash" class="language-bash">cd data_processing
+</code></pre>
+<p>Run the preprocessing script:</p>
+<pre><code language="language-bash" class="language-bash">python preprocess_electricity_report.py
+</code></pre>
+<p>This will:</p>
+<ul>
+<li>Load PDFs from multiple years</li>
+<li>Chunk content and extract Year/Quarter metadata</li>
+<li>Store formatted data ready for vector embedding</li>
+</ul>
+<p>Step 2: Index Data to Pinecone</p>
+<p>Inside the same folder, use the embedding script:</p>
+<pre><code language="language-bash" class="language-bash">python vectorize_data_with_metadata.py
+</code></pre>
+<p>This pushes your processed data into Pinecone with metadata like:</p>
+<ul>
+<li><code>year</code></li>
+<li><code>quarter</code></li>
+</ul>
+<p>You can verify data in your Pinecone project dashboard.</p>
+<p>Step 3: Start the FastAPI Backend (LangGraph Agents)</p>
+<p>Go to the backend code directory:</p>
+<pre><code language="language-bash" class="language-bash">cd mini_manus_ai
+</code></pre>
+<p>Run the LangGraph FastAPI backend:</p>
+<pre><code language="language-bash" class="language-bash">uvicorn app.main:app --reload
+</code></pre>
+<p>This starts:</p>
+<ul>
+<li>RAG Agent (using Pinecone)</li>
+<li>Web Agent (using SerpAPI)</li>
+<li>Image Agent (DALL·E-3 via OpenAI)</li>
+<li>AgentRouter using LangGraph orchestration</li>
+</ul>
+<p>Step 4: Launch Streamlit UI</p>
+<p>Open a new terminal and navigate to:</p>
+<pre><code language="language-bash" class="language-bash">cd frontend
+streamlit run ui.py
+</code></pre>
+<p>The UI allows:</p>
+<ul>
+<li>Filtering results by year and quarter</li>
+<li>Asking free-form research questions</li>
+<li>Triggering any or all of the three agents</li>
+</ul>
+<p>Step 5: Run the Full Stack with Docker</p>
+<p>At the root directory, build and run the Docker container:</p>
+<pre><code language="language-bash" class="language-bash">docker build -t electricity-assistant .
+docker run -p 8501:8501 electricity-assistant
+</code></pre>
+<p>Step 6: Additional Utilities</p>
+<p>To generate a test research report:</p>
+<pre><code language="language-bash" class="language-bash">python generate_testreport.py
+</code></pre>
+<p>This outputs a consolidated markdown file combining all agent results for a given question.</p>
+<p>Summary</p>
+<p>✅ You&#39;ve executed a full-stack, AI-powered research assistant that:</p>
+<ul>
+<li>Parses and indexes electricity reports</li>
+<li>Responds with summarized insights, visuals, and news</li>
+<li>Uses LangGraph agents orchestrated in FastAPI</li>
+<li>Is interactive via Streamlit and portable via Docker</li>
+</ul>
+<p>Next Steps</p>
+<ul>
+<li>Improve UI interactivity</li>
+<li>Add more agent roles (e.g., Forecasting)</li>
+<li>Implement CI/CD with GitHub Actions</li>
+</ul>
+<p>License</p>
+<p>MIT License — see LICENSE file in the repository.</p>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/claat-public/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/prettify.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>
