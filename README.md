@@ -33,7 +33,7 @@ The system processes data from sources such as:
 
 - **Snowflake Agent**: Queries Snowflake for structured valuation measures and generates insights.
 - **RAG Agent**: Uses Pinecone for metadata-filtered retrieval of Electricity report data.
-- **Web Search Agent**: Uses real-time search APIs (SerpAPI, Tavily, Bing API) for the latest industry trends.
+- **Web Search Agent**: Uses real-time search APIs (SerpAPI) for the latest industry trends.
 
 ---
 
@@ -90,33 +90,7 @@ The project is containerized for seamless deployment.
 - API keys for:
   - Snowflake
   - Pinecone
-  - Web search API (e.g., SerpAPI, Tavily, Bing API)
-
----
-
-### 🧪 Steps to Run Locally
-
-```bash
-# Clone the repository
-git clone https://github.com/your-org/research-assistant.git
-cd research-assistant
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Set up environment variables (.env)
-# Example:
-SNOWFLAKE_USER=your_user
-SNOWFLAKE_PASSWORD=your_password
-PINECONE_API_KEY=your_pinecone_key
-WEB_SEARCH_API_KEY=your_web_api_key
-
-# Run FastAPI backend
-uvicorn app.main:app --reload
-
-# Run Streamlit UI
-streamlit run app/ui.py
-```
+  - Web search API (SerpAPI)
 
 ---
 
