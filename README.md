@@ -6,6 +6,7 @@
 
 ## 📘 Overview
 
+CodeLab: https://bigdatasystemsteam5.github.io/HackathonProject_ElectricityReport/#0
 This project is an integrated research assistant leveraging multiple specialized agents to generate comprehensive research reports. The system utilizes:
 
 - 🖼️ **Image Agent**: Generates images from a given prompt.
