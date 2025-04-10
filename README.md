@@ -20,7 +20,7 @@ These agents collaborate through **LangGraph** to produce a consolidated researc
 
 ---
 
-## 🚀 Features
+## 🚀 Features.
 
 ### 📊 Data Handling
 
