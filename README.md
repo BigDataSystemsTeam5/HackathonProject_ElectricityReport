@@ -16,6 +16,8 @@ This project is an integrated research assistant leveraging multiple specialized
 
 These agents collaborate through **LangGraph** to produce a consolidated research output.
 
+![Electricity Report Architecture](image.png)
+
 ---
 
 ## 🚀 Features
